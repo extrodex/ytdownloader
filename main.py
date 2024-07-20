@@ -11,7 +11,6 @@ def startDownloadmp4():
     except:
         print("Link invalid")
     print("Download Complete")
-from pytube import YouTube
 
 #system settings
 customtkinter.set_appearance_mode("System")
