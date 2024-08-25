@@ -4,6 +4,7 @@ import customtkinter
 from pytube import YouTube
 def startDownloadmp4():
     try:
+        #i forgot how this code works djfklas;dfkjl;jdfsl
         ytlink = link.get()
         ytObject = YouTube(ytlink)
         video=ytObject.streams.get_highest_resolution()
